@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Hangman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+    <h1>Hangman</h1>
+
+    <div id="register">
+        <h3>Please Register</h3>
+        <label>Username</label>
+        <input type="text" placeholder="Enter Username" class="newUser">
+
+        <br>
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter Password" class="newPass">
+        <br>
+        <button id="regBtn" type="submit">Register</button>
+    </div>
+
+    <div id="login">
+        <h3>Please Log in</h3>
+        <label>Username</label>
+        <input type="text" placeholder="Enter Username" class="userName">
+
+        <br>
+    
+        <label>Password</label>
+        <input type="password" placeholder="Enter Password" class="passWord">
+
+        <br>
+
+        <button id="loginBtn" type="submit">Login</button>
+    </div>
+
+    <div id="greeting"></div>
+
+    <div id="game">
+
+            <div id="rowOne">
+            </div>
+
+            <div id="rowTwo">
+            </div>
+
+            <div id="rowThree">
+            </div> 
+
+        <h3 class="category"></h3>
+        <h3 class="score"></h3>
+
+        <div class="answer"></div>
+
+        <div id="win"></div>
+        <div id="lose"></div>
+        <div id="playAgain"></div>
+
+        <div id="logout"></div>
+        <img id="hangman" src="images/hangman-0.png">
+
+    </div>
+
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

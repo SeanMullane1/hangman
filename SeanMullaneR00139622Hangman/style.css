@@ -1,0 +1,67 @@
+body {
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    background: lightblue;
+}
+
+.clicked { 
+    border: yellow;
+    background: yellow;
+}
+
+.alpha{
+    margin-left: 5px;
+    display: inline-block;
+ }
+
+p{ 
+    color: black;
+    border: 1px solid #FF6A5C;
+    background: #FF6A5C;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#loginBtn {
+    color: black;
+    background: white;
+    border: 1px solid white;
+    width: 80px;
+    height: 50px;
+    font-size: 20px;   
+}
+
+#logOut {
+    color: black;
+    background: white;
+    border: 1px solid white;
+    width: 80px;
+    height: 50px;
+    font-size: 20px;   
+}
+
+#regBtn {
+    color: black;
+    background: white;
+    border: 1px solid white;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;   
+}
+
+#greeting {
+    font-size: 20px;
+}
+
+.alpha:hover {
+    border: yellow;
+    background: yellow;
+    cursor: pointer;
+    color: black;
+    text-transform: uppercase;
+    transform: scale(1.1);
+}
+
+
